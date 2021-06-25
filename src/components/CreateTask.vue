@@ -9,7 +9,7 @@
       
       <div class="form-group">
        
-        <input class="form-control mb-3" type="text" id="taskTitle" placeholder="Task Title" v-model.number="enteredTitle" />
+        <input class="form-control mb-3" type="text" id="taskTitle" placeholder="Task Title" v-model="enteredTitle" />
      </div>
       
         <div class="form-group">
