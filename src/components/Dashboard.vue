@@ -28,7 +28,7 @@
     <div class="box-container d-flex justify-content-center align-items-center text-center text-white">
 <div class="col-md-6">
                     <div class="box">
-                         <router-link to="/screate-task"> Create Task </router-link> 
+                         <router-link to="/create-task"> Create Task </router-link> 
                     </div>
                     
                 </div>
