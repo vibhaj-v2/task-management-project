@@ -15,7 +15,7 @@
     </div>
   </div>
    <!-- Starting point for the components -->
-    <router-view></router-view>
+    <!-- <router-view></router-view> -->
 </template>
 
 <script>

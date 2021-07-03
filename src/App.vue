@@ -7,6 +7,21 @@
 
 
 export default {
+
+  data(){
+
+    return {tasksArray:[]}
+
+  },
+  methods: {
+   addValues (task){
+this.tasksArray.push(task);
+   }
+  },
+  provide(){
+    return {tasks:this.tasksArray, addValues: this.addValues}
+  }
+
   /*  components: { 
     LoginForm ,
     SignupForm
